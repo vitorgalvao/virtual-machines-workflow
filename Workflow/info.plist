@@ -19,6 +19,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>27FA96FD-E50D-4CEB-A4C7-D96846223619</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>27FA96FD-E50D-4CEB-A4C7-D96846223619</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2A1CB15A-C5A9-45D2-AEFF-7B901E358AF6</key>
 		<array>
 			<dict>
@@ -61,12 +87,45 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Ignore VM</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>53D126D5-BBFD-4668-A19B-55328F10FEBC</string>
+				<key>modifiers</key>
+				<integer>8388608</integer>
+				<key>modifiersubtext</key>
+				<string>Reset Ignored VMs</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
 		</array>
 		<key>418FD397-A8AB-444C-A181-441CEB60881C</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>AF091797-929C-4FAB-8224-DECA10BE0AFB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>53D126D5-BBFD-4668-A19B-55328F10FEBC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D40AA19D-AF50-44E0-8514-F7A62BDADD48</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -167,6 +226,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D40AA19D-AF50-44E0-8514-F7A62BDADD48</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>ED97B753-872C-47B2-8375-584569232A3D</key>
 		<array>
 			<dict>
@@ -242,7 +314,7 @@
 				<key>runningsubtext</key>
 				<string>Getting list…</string>
 				<key>script</key>
-				<string>./virtual-machines "${ignored_vms}"</string>
+				<string>./virtual-machines "${(f)ignored_vms}"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -255,6 +327,11 @@
 				<integer>5</integer>
 				<key>withspace</key>
 				<true/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>list_not_ignored</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -465,6 +542,14 @@ tart clone "${1}" "${orig_vm}"</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>config</key>
 			<dict>
 				<key>concurrently</key>
@@ -507,6 +592,14 @@ tart clone "${1}" "${orig_vm}"</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>53D126D5-BBFD-4668-A19B-55328F10FEBC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>config</key>
 			<dict>
 				<key>concurrently</key>
@@ -529,6 +622,107 @@ tart clone "${1}" "${orig_vm}"</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>list_not_ignored</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function run(argv) {
+  // Read plist for ignored VMs
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
+
+  task.executableURL = $.NSURL.alloc.initFileURLWithPath("/usr/libexec/PlistBuddy")
+  task.arguments = ["-c", "Print :ignored_vms", "prefs.plist"]
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFile
+  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
+
+  task.waitUntilExit
+
+  // Set ignored
+  const ignored = task.terminationStatus === 0 ? `${stringOut}${argv[0]}` : argv[0]
+
+  Application("com.runningwithcrayons.Alfred").setConfiguration(
+    "ignored_vms",
+    { toValue: ignored, inWorkflow: envVar("alfred_workflow_bundleid") }
+  )
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>27FA96FD-E50D-4CEB-A4C7-D96846223619</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+Application("com.runningwithcrayons.Alfred").removeConfiguration("ignored_vms", { inWorkflow: envVar("alfred_workflow_bundleid") })</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D40AA19D-AF50-44E0-8514-F7A62BDADD48</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>## Setup
@@ -544,13 +738,15 @@ Search installed virtual machines via the List VMs Keyword (default: `tart`).
 * &lt;kbd&gt;↩&lt;/kbd&gt;: Run.
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Overwrite with another. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; again to restart the original.
 * &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Clone.
-* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Delete.</string>
+* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Delete.
+* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Ignore.
+* &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Reset ignored.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0C43D32F-4524-4292-A2F0-98BAB312E8E2</key>
 		<dict>
 			<key>xpos</key>
-			<real>325</real>
+			<real>370</real>
 			<key>ypos</key>
 			<real>215</real>
 		</dict>
@@ -559,9 +755,25 @@ Search installed virtual machines via the List VMs Keyword (default: `tart`).
 			<key>note</key>
 			<string>Run VM</string>
 			<key>xpos</key>
-			<real>1070</real>
+			<real>1115</real>
 			<key>ypos</key>
 			<real>40</real>
+		</dict>
+		<key>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</key>
+		<dict>
+			<key>xpos</key>
+			<real>220</real>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>27FA96FD-E50D-4CEB-A4C7-D96846223619</key>
+		<dict>
+			<key>note</key>
+			<string>Ignore VM</string>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>680</real>
 		</dict>
 		<key>2A1CB15A-C5A9-45D2-AEFF-7B901E358AF6</key>
 		<dict>
@@ -577,35 +789,42 @@ Search installed virtual machines via the List VMs Keyword (default: `tart`).
 			<key>note</key>
 			<string>Clone VM</string>
 			<key>xpos</key>
-			<real>725</real>
+			<real>770</real>
 			<key>ypos</key>
 			<real>185</real>
+		</dict>
+		<key>53D126D5-BBFD-4668-A19B-55328F10FEBC</key>
+		<dict>
+			<key>xpos</key>
+			<real>175</real>
+			<key>ypos</key>
+			<real>415</real>
 		</dict>
 		<key>5D98957A-486E-472F-A008-6E3FDBB89A0D</key>
 		<dict>
 			<key>xpos</key>
-			<real>220</real>
+			<real>265</real>
 			<key>ypos</key>
 			<real>305</real>
 		</dict>
 		<key>894EA6FF-FFF7-4FD1-BC7E-40BF715E9139</key>
 		<dict>
 			<key>xpos</key>
-			<real>470</real>
+			<real>515</real>
 			<key>ypos</key>
 			<real>380</real>
 		</dict>
 		<key>9536190C-FA59-4461-91AD-30AF02A2AAC8</key>
 		<dict>
 			<key>xpos</key>
-			<real>280</real>
+			<real>325</real>
 			<key>ypos</key>
 			<real>260</real>
 		</dict>
 		<key>96020B05-A3BE-49A2-B638-5849BB122534</key>
 		<dict>
 			<key>xpos</key>
-			<real>470</real>
+			<real>515</real>
 			<key>ypos</key>
 			<real>185</real>
 		</dict>
@@ -614,7 +833,7 @@ Search installed virtual machines via the List VMs Keyword (default: `tart`).
 			<key>note</key>
 			<string>Delete VM</string>
 			<key>xpos</key>
-			<real>470</real>
+			<real>515</real>
 			<key>ypos</key>
 			<real>520</real>
 		</dict>
@@ -623,28 +842,44 @@ Search installed virtual machines via the List VMs Keyword (default: `tart`).
 			<key>note</key>
 			<string>Clone VM</string>
 			<key>xpos</key>
-			<real>725</real>
+			<real>770</real>
 			<key>ypos</key>
 			<real>380</real>
 		</dict>
 		<key>AF091797-929C-4FAB-8224-DECA10BE0AFB</key>
 		<dict>
 			<key>xpos</key>
-			<real>880</real>
+			<real>925</real>
 			<key>ypos</key>
 			<real>215</real>
+		</dict>
+		<key>B251ECCB-821D-4ABB-820F-44732096C853</key>
+		<dict>
+			<key>xpos</key>
+			<real>770</real>
+			<key>ypos</key>
+			<real>680</real>
 		</dict>
 		<key>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</key>
 		<dict>
 			<key>xpos</key>
-			<real>635</real>
+			<real>680</real>
 			<key>ypos</key>
 			<real>310</real>
+		</dict>
+		<key>D40AA19D-AF50-44E0-8514-F7A62BDADD48</key>
+		<dict>
+			<key>note</key>
+			<string>Reset Ignored VMs</string>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>840</real>
 		</dict>
 		<key>ED97B753-872C-47B2-8375-584569232A3D</key>
 		<dict>
 			<key>xpos</key>
-			<real>955</real>
+			<real>1000</real>
 			<key>ypos</key>
 			<real>215</real>
 		</dict>
@@ -695,7 +930,7 @@ Search installed virtual machines via the List VMs Keyword (default: `tart`).
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.1</string>
+	<string>2023.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/virtual-machines-workflow/</string>
 </dict>

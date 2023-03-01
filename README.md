@@ -18,3 +18,5 @@ Search installed virtual machines via the List VMs Keyword (default: `tart`).
 * <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd>: Overwrite with another. <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> again to restart the original.
 * <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd>: Clone.
 * <kbd>⌃</kbd><kbd>↩&#xFE0E;</kbd>: Delete.
+* <kbd>⇧</kbd><kbd>↩&#xFE0E;</kbd>: Ignore.
+* <kbd>fn</kbd><kbd>↩&#xFE0E;</kbd>: Reset ignored.

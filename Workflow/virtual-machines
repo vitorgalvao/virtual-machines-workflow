@@ -26,13 +26,14 @@ function runCommandJSON(...arguments) {
 
 function run(argv) {
   // Get VMs list
-  const ignored = argv[0].split("\n")
+  const ignored = argv
   const vmList = runCommandJSON("tart", "list", "--format", "json").filter(entry => !ignored.includes(entry["Name"]))
 
   // If no VMs found
   if (vmList.length === 0) return JSON.stringify({items: [{
     title: "No matching virtual machines found",
-    valid: false
+    valid: false,
+    mods: { fn: { valid: true } } // Modifier to reset ignored VMs
   }]})
 
   // List VMs
@@ -41,7 +42,7 @@ function run(argv) {
       uid: vmDetails["Name"] + vmDetails["Source"],
       title: vmDetails["Name"],
       subtitle: vmDetails["Source"],
-      arg: vmDetails["Name"]
+      arg: vmDetails["Name"],
     }
   })
 
