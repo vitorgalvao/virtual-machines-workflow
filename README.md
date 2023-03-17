@@ -6,7 +6,7 @@ Run and Manage Virtual Machines
 
 ## Setup
 
-Install your virtual machines with [`tart`](https://github.com/cirruslabs/tart).
+Install [`tart`](https://github.com/cirruslabs/tart) with `brew install cirruslabs/cli/tart` and use it to install your virtual machines.
 
 ## Usage
 

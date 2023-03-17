@@ -727,7 +727,7 @@ Application("com.runningwithcrayons.Alfred").removeConfiguration("ignored_vms", 
 	<key>readme</key>
 	<string>## Setup
 
-Install your virtual machines with [`tart`](https://github.com/cirruslabs/tart).
+Install [`tart`](https://github.com/cirruslabs/tart) with `brew install cirruslabs/cli/tart` and use it to install your virtual machines.
 
 ## Usage
 
@@ -930,7 +930,7 @@ Search installed virtual machines via the List VMs Keyword (default: `tart`).
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.2</string>
+	<string>2023.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/virtual-machines-workflow/</string>
 </dict>
