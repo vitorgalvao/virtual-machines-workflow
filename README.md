@@ -2,7 +2,7 @@
 
 Run and Manage Virtual Machines
 
-<a href='https://alfred.app/workflows/vitor/virtual-machines'>⤓ Install on the Alfred Gallery</a>
+[⤓ Install on the Alfred Gallery](https://alfred.app/workflows/vitor/virtual-machines)
 
 ## Setup
 
@@ -10,7 +10,7 @@ Install [`tart`](https://github.com/cirruslabs/tart) with `brew install cirrusla
 
 ## Usage
 
-Search installed virtual machines via the List VMs Keyword (default: `tart`).
+Search installed virtual machines via the `tart` keyword.
 
 ![Listing installed virtual machines](Workflow/images/about/tart.png)
 
