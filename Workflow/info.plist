@@ -920,7 +920,7 @@ Search installed virtual machines via the `tart` keyword.
 				<integer>6</integer>
 			</dict>
 			<key>description</key>
-			<string>Newline-separared list of virtual machines to not show in main list.</string>
+			<string>Newline-separared list of virtual machines to hide from main list.</string>
 			<key>label</key>
 			<string>Ignored VMs</string>
 			<key>type</key>
