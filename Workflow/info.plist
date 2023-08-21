@@ -172,7 +172,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Start {query} after Copying</string>
+				<string>Start {query} After Copying</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -231,7 +231,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Restart {var:orig_vm} after Overwriting</string>
+				<string>Restart {var:orig_vm} After Overwriting</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
