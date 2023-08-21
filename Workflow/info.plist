@@ -121,6 +121,21 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>95BA427F-9887-4356-BC4C-CB5529A26FF8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A2BFDBCD-7006-44FD-88B9-14695FF37D99</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>53D126D5-BBFD-4668-A19B-55328F10FEBC</key>
 		<array>
 			<dict>
@@ -153,6 +168,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>EF1EB707-F7E8-4C1F-BEFF-AA12987DF65F</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Start {query} after Copying</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>9FA51A6D-2460-46A9-94C6-1A46DE3DC880</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -167,6 +192,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>894EA6FF-FFF7-4FD1-BC7E-40BF715E9139</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>95BA427F-9887-4356-BC4C-CB5529A26FF8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -194,6 +232,19 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Restart {var:orig_vm} after Overwriting</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9FA51A6D-2460-46A9-94C6-1A46DE3DC880</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -244,6 +295,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EF1EB707-F7E8-4C1F-BEFF-AA12987DF65F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9FA51A6D-2460-46A9-94C6-1A46DE3DC880</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -414,26 +478,6 @@ tart clone "${1}" "${orig_vm}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>orig_vm</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>0C43D32F-4524-4292-A2F0-98BAB312E8E2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -496,7 +540,47 @@ tart clone "${1}" "${orig_vm}"</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
+			<string>0C43D32F-4524-4292-A2F0-98BAB312E8E2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>orig_vm</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
 			<string>9536190C-FA59-4461-91AD-30AF02A2AAC8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>restart</key>
+					<string>true</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -530,6 +614,8 @@ tart clone "${1}" "${orig_vm}"</string>
 				<false/>
 				<key>variables</key>
 				<dict>
+					<key>cloned_vm</key>
+					<string>{query}</string>
 					<key>restart</key>
 					<string>true</string>
 				</dict>
@@ -537,7 +623,7 @@ tart clone "${1}" "${orig_vm}"</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</string>
+			<string>EF1EB707-F7E8-4C1F-BEFF-AA12987DF65F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -546,6 +632,25 @@ tart clone "${1}" "${orig_vm}"</string>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
 			<string>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>{query}</string>
+				<key>text</key>
+				<string>Name for Cloned VM</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>894EA6FF-FFF7-4FD1-BC7E-40BF715E9139</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -575,19 +680,49 @@ tart clone "${1}" "${orig_vm}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string>{query}</string>
-				<key>text</key>
-				<string>Name for Cloned VM</string>
-				<key>withspace</key>
+				<key>argument</key>
+				<string>{var:cloned_vm}</string>
+				<key>passthroughargument</key>
 				<false/>
+				<key>variables</key>
+				<dict/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>894EA6FF-FFF7-4FD1-BC7E-40BF715E9139</string>
+			<string>95BA427F-9887-4356-BC4C-CB5529A26FF8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:restart}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Restart VM</string>
+						<key>uid</key>
+						<string>A2BFDBCD-7006-44FD-88B9-14695FF37D99</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -737,7 +872,7 @@ Search installed virtual machines via the `tart` keyword.
 
 * &lt;kbd&gt;↩&lt;/kbd&gt;: Run.
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Overwrite with another. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; again to restart the original.
-* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Clone.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Clone. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; when naming to start the new one.
 * &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Delete.
 * &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Ignore.
 * &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Reset ignored.</string>
@@ -793,6 +928,13 @@ Search installed virtual machines via the `tart` keyword.
 			<key>ypos</key>
 			<real>185</real>
 		</dict>
+		<key>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</key>
+		<dict>
+			<key>xpos</key>
+			<real>925</real>
+			<key>ypos</key>
+			<real>410</real>
+		</dict>
 		<key>53D126D5-BBFD-4668-A19B-55328F10FEBC</key>
 		<dict>
 			<key>xpos</key>
@@ -820,6 +962,13 @@ Search installed virtual machines via the `tart` keyword.
 			<real>325</real>
 			<key>ypos</key>
 			<real>260</real>
+		</dict>
+		<key>95BA427F-9887-4356-BC4C-CB5529A26FF8</key>
+		<dict>
+			<key>xpos</key>
+			<real>1000</real>
+			<key>ypos</key>
+			<real>410</real>
 		</dict>
 		<key>96020B05-A3BE-49A2-B638-5849BB122534</key>
 		<dict>
@@ -865,7 +1014,7 @@ Search installed virtual machines via the `tart` keyword.
 			<key>xpos</key>
 			<real>680</real>
 			<key>ypos</key>
-			<real>310</real>
+			<real>285</real>
 		</dict>
 		<key>D40AA19D-AF50-44E0-8514-F7A62BDADD48</key>
 		<dict>
@@ -882,6 +1031,13 @@ Search installed virtual machines via the `tart` keyword.
 			<real>1000</real>
 			<key>ypos</key>
 			<real>215</real>
+		</dict>
+		<key>EF1EB707-F7E8-4C1F-BEFF-AA12987DF65F</key>
+		<dict>
+			<key>xpos</key>
+			<real>680</real>
+			<key>ypos</key>
+			<real>340</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
