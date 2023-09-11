@@ -16,7 +16,7 @@ Search installed virtual machines via the `tart` keyword.
 
 * <kbd>↩&#xFE0E;</kbd>: Run.
 * <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd>: Overwrite with another. <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> again to restart the original.
-* <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd>: Clone.
+* <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd>: Clone. <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> when naming to start the new one.
 * <kbd>⌃</kbd><kbd>↩&#xFE0E;</kbd>: Delete.
 * <kbd>⇧</kbd><kbd>↩&#xFE0E;</kbd>: Ignore.
 * <kbd>fn</kbd><kbd>↩&#xFE0E;</kbd>: Reset ignored.

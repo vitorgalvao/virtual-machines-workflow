@@ -1086,7 +1086,7 @@ Search installed virtual machines via the `tart` keyword.
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.6</string>
+	<string>2023.7</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/virtual-machines-workflow/</string>
 </dict>
