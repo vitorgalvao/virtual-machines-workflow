@@ -65,7 +65,7 @@
 				<key>modifiersubtext</key>
 				<string>Overwrite With Another VM</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -75,7 +75,7 @@
 				<key>modifiersubtext</key>
 				<string>Clone VM</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
