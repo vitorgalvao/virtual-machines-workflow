@@ -335,7 +335,12 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>tart run "${1}"</string>
+				<string>if [[ "${suspendable}" -eq 1 ]]
+then
+  tart run --suspendable "${1}"
+else
+  tart run "${1}"
+fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1062,6 +1067,25 @@ Search installed virtual machines via the `tart` keyword.
 			<string>textfield</string>
 			<key>variable</key>
 			<string>list_vms_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Save state snapshot when closing VM</string>
+			</dict>
+			<key>description</key>
+			<string>Available when both host and guest are on macOS 14 or later.</string>
+			<key>label</key>
+			<string>Suspendable</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>suspendable</string>
 		</dict>
 		<dict>
 			<key>config</key>
