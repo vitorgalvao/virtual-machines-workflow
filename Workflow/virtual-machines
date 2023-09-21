@@ -26,23 +26,45 @@ function runCommandJSON(...arguments) {
 
 function run(argv) {
   // Get VMs list
-  const ignored = argv
-  const vmList = runCommandJSON("tart", "list", "--format", "json").filter(entry => !ignored.includes(entry["Name"]))
+  const inputVMs = argv.slice(2) // VMs given as arguments
+  const nativeMods = argv[0] === "native" // Either "native" to show modifiers from Alfred connections, or "script" to use modifiers set in this script
+  const hideInput = argv[1] === "hide" // Either "hide" to show all except "inputVMs", or "show" for the reverse
+  const allVMs = runCommandJSON("tart", "list", "--format", "json")
+  const matchingVMs = hideInput ?
+    allVMs.filter(entry => !inputVMs.includes(entry["Name"])) :
+    allVMs.filter(entry => inputVMs.includes(entry["Name"]))
+
+  // Modifiers
+  const modifiers = nativeMods ?
+    {} : // Ignore custom modifier and only show mods set in workflow connections
+    {
+      cmd: { variables: { action: "overwrite" }, subtitle: "Overwrite With Another VM" },
+      alt: { variables: { action: "clone" }, subtitle: "Clone VM" },
+      ctrl: { variables: { action: "delete" }, subtitle: "Delete VM" },
+      fn: hideInput ?
+        { variables: { action: "list_ignored" }, subtitle: "Switch to Ignored VMs List" } :
+        { variables: { action: "list_main" }, subtitle: "Switch to Main VMs List" },
+      shift: hideInput ?
+        { variables: { action: "ignore" }, subtitle: "Ignore VM" } :
+        { variables: { action: "unignore" }, subtitle: "Unignore VM" },
+    }
 
   // If no VMs found
-  if (vmList.length === 0) return JSON.stringify({items: [{
+  if (matchingVMs.length === 0) return JSON.stringify({items: [{
     title: "No matching virtual machines found",
     valid: false,
-    mods: { fn: { valid: true } } // Modifier to reset ignored VMs
+    mods: { fn: modifiers["fn"] } // Modifier to switch list
   }]})
 
   // List VMs
-  const sfItems = vmList.map(vmDetails => {
+  const sfItems = matchingVMs.map(vmDetails => {
     return {
+      variables: { action: run },
       uid: vmDetails["Name"] + vmDetails["Source"],
       title: vmDetails["Name"],
       subtitle: vmDetails["Source"],
       arg: vmDetails["Name"],
+      mods: modifiers
     }
   })
 

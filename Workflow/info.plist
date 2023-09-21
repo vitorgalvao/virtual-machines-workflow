@@ -36,7 +36,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
+				<string>6314A951-3949-4C57-AAE6-C2B780DA0225</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -49,61 +49,11 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
+				<string>6C955C02-FFC6-4140-A47C-4B277D9AFD03</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>0C43D32F-4524-4292-A2F0-98BAB312E8E2</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Overwrite With Another VM</string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>9536190C-FA59-4461-91AD-30AF02A2AAC8</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string>Clone VM</string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>5D98957A-486E-472F-A008-6E3FDBB89A0D</string>
-				<key>modifiers</key>
-				<integer>262144</integer>
-				<key>modifiersubtext</key>
-				<string>Delete VM</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</string>
-				<key>modifiers</key>
-				<integer>131072</integer>
-				<key>modifiersubtext</key>
-				<string>Ignore VM</string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>53D126D5-BBFD-4668-A19B-55328F10FEBC</string>
-				<key>modifiers</key>
-				<integer>8388608</integer>
-				<key>modifiersubtext</key>
-				<string>Reset Ignored VMs</string>
 				<key>vitoclose</key>
 				<true/>
 			</dict>
@@ -140,7 +90,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D40AA19D-AF50-44E0-8514-F7A62BDADD48</string>
+				<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -160,6 +110,132 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6314A951-3949-4C57-AAE6-C2B780DA0225</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5AC97E9B-4430-454C-A79A-FD12AB5EF7D1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EA1CB063-2FFF-4C54-B6DB-BDF6006E97A5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>FEC51344-76BA-4005-B0E1-9CFFA26E8BE5</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6C955C02-FFC6-4140-A47C-4B277D9AFD03</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>83F61695-A04A-441C-847B-DF03CEE0245E</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C43D32F-4524-4292-A2F0-98BAB312E8E2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>714601BF-38DE-4D16-8A37-EA57EF61B30E</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9536190C-FA59-4461-91AD-30AF02A2AAC8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>90E235C7-FBA7-4493-BBF5-38FB8405F862</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>5D98957A-486E-472F-A008-6E3FDBB89A0D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>6BD88FA3-08FF-4290-93F9-F5EBAC975DA6</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>6C06F1A4-AB94-45A3-99A5-6A43E823B633</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1233BE41-E11B-4ED4-A9EF-97B5D6F2C370</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>53D126D5-BBFD-4668-A19B-55328F10FEBC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>687FA4B5-8E37-4DA4-97A1-0147611FA2BD</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CA3B4D74-3B3F-4AB1-B619-739BD2F6AB70</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F6C3325C-9789-456E-85E1-8578A73E8CB8</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -277,11 +353,24 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D40AA19D-AF50-44E0-8514-F7A62BDADD48</key>
+		<key>B6422FB2-468A-4787-9C1B-1C5054CA9B61</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
+				<string>6C955C02-FFC6-4140-A47C-4B277D9AFD03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>CA3B4D74-3B3F-4AB1-B619-739BD2F6AB70</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EA1CB063-2FFF-4C54-B6DB-BDF6006E97A5</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -330,6 +419,60 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:main_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Getting list…</string>
+				<key>script</key>
+				<string>./virtual-machines 'script' 'hide' "${(f)ignored_vms}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Run and Manage Virtual Machines</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>list_not_ignored</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>2A1CB15A-C5A9-45D2-AEFF-7B901E358AF6</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<true/>
 				<key>escaping</key>
@@ -358,56 +501,132 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>run</string>
+						<key>outputlabel</key>
+						<string>Run</string>
+						<key>uid</key>
+						<string>83F61695-A04A-441C-847B-DF03CEE0245E</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>overwrite</string>
+						<key>outputlabel</key>
+						<string>Overwrite</string>
+						<key>uid</key>
+						<string>714601BF-38DE-4D16-8A37-EA57EF61B30E</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>clone</string>
+						<key>outputlabel</key>
+						<string>Clone</string>
+						<key>uid</key>
+						<string>90E235C7-FBA7-4493-BBF5-38FB8405F862</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>delete</string>
+						<key>outputlabel</key>
+						<string>Delete</string>
+						<key>uid</key>
+						<string>6BD88FA3-08FF-4290-93F9-F5EBAC975DA6</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>ignore</string>
+						<key>outputlabel</key>
+						<string>Ignore</string>
+						<key>uid</key>
+						<string>6C06F1A4-AB94-45A3-99A5-6A43E823B633</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>unignore</string>
+						<key>outputlabel</key>
+						<string>Unignore</string>
+						<key>uid</key>
+						<string>1233BE41-E11B-4ED4-A9EF-97B5D6F2C370</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>list_main</string>
+						<key>outputlabel</key>
+						<string>Main VMs</string>
+						<key>uid</key>
+						<string>687FA4B5-8E37-4DA4-97A1-0147611FA2BD</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>list_ignored</string>
+						<key>outputlabel</key>
+						<string>Ignored VMs</string>
+						<key>uid</key>
+						<string>F6C3325C-9789-456E-85E1-8578A73E8CB8</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
 				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>{var:list_vms_keyword}</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Getting list…</string>
-				<key>script</key>
-				<string>./virtual-machines "${(f)ignored_vms}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Run and Manage Virtual Machines</string>
-				<key>type</key>
-				<integer>11</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>inboundconfig</key>
-			<dict>
-				<key>externalid</key>
-				<string>list_not_ignored</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>2A1CB15A-C5A9-45D2-AEFF-7B901E358AF6</string>
+			<string>6C955C02-FFC6-4140-A47C-4B277D9AFD03</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -459,7 +678,7 @@ tart clone "${1}" "${orig_vm}"</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./virtual-machines "${orig_vm}"</string>
+				<string>./virtual-machines 'native' 'hide' "${orig_vm}"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -552,22 +771,56 @@ tart clone "${1}" "${orig_vm}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:ignored_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Getting list…</string>
+				<key>script</key>
+				<string>./virtual-machines 'script' 'show' "${(f)ignored_vms}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
 				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>orig_vm</key>
-					<string>{query}</string>
-				</dict>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Run and Manage Virtual Machines</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>list_ignored</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>9536190C-FA59-4461-91AD-30AF02A2AAC8</string>
+			<string>B6422FB2-468A-4787-9C1B-1C5054CA9B61</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -586,27 +839,6 @@ tart clone "${1}" "${orig_vm}"</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>button1</key>
-				<string>Delete</string>
-				<key>button2</key>
-				<string>Cancel</string>
-				<key>button3</key>
-				<string></string>
-				<key>description</key>
-				<string>Erasing a Virtual Machine cannot be undone.</string>
-				<key>title</key>
-				<string>Delete {query}?</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.dialog</string>
-			<key>uid</key>
-			<string>5D98957A-486E-472F-A008-6E3FDBB89A0D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -633,10 +865,21 @@ tart clone "${1}" "${orig_vm}"</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>{query}</string>
+				<key>text</key>
+				<string>Name for Cloned VM</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</string>
+			<string>894EA6FF-FFF7-4FD1-BC7E-40BF715E9139</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -666,19 +909,20 @@ tart clone "${1}" "${orig_vm}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string>{query}</string>
-				<key>text</key>
-				<string>Name for Cloned VM</string>
-				<key>withspace</key>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
 				<false/>
+				<key>variables</key>
+				<dict>
+					<key>orig_vm</key>
+					<string>{query}</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>894EA6FF-FFF7-4FD1-BC7E-40BF715E9139</string>
+			<string>9536190C-FA59-4461-91AD-30AF02A2AAC8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -732,14 +976,6 @@ tart clone "${1}" "${orig_vm}"</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>53D126D5-BBFD-4668-A19B-55328F10FEBC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>config</key>
 			<dict>
 				<key>concurrently</key>
@@ -765,19 +1001,21 @@ tart clone "${1}" "${orig_vm}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>externaltriggerid</key>
-				<string>list_not_ignored</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<false/>
-				<key>workflowbundleid</key>
-				<string>self</string>
+				<key>button1</key>
+				<string>Delete</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>Erasing a Virtual Machine cannot be undone.</string>
+				<key>title</key>
+				<string>Delete {query}?</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
+			<string>alfred.workflow.utility.dialog</string>
 			<key>uid</key>
-			<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
+			<string>5D98957A-486E-472F-A008-6E3FDBB89A0D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -797,6 +1035,9 @@ tart clone "${1}" "${orig_vm}"</string>
 }
 
 function run(argv) {
+  const modeRemove = envVar("action") === "unignore" // Either "ignore" to add to list or "unignore" to remove from it
+  const vm = argv[0]
+
   // Read plist for ignored VMs
   const task = $.NSTask.alloc.init
   const stdout = $.NSPipe.pipe
@@ -812,11 +1053,14 @@ function run(argv) {
   task.waitUntilExit
 
   // Set ignored
-  const ignored = task.terminationStatus === 0 ? `${stringOut}${argv[0]}` : argv[0]
+  const origIgnored = stringOut.split("\n").filter(entry =&gt; entry) // Split and remove empty entries
+  const ignored = modeRemove ?
+    origIgnored.filter(entry =&gt; entry !== vm) :
+    origIgnored.concat(vm)
 
   Application("com.runningwithcrayons.Alfred").setConfiguration(
     "ignored_vms",
-    { toValue: ignored, inWorkflow: envVar("alfred_workflow_bundleid") }
+    { toValue: ignored.join("\n"), inWorkflow: envVar("alfred_workflow_bundleid") }
   )
 }</string>
 				<key>scriptargtype</key>
@@ -836,32 +1080,110 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>function envVar(varName) {
-  return $.NSProcessInfo
-    .processInfo
-    .environment
-    .objectForKey(varName).js
-}
-
-Application("com.runningwithcrayons.Alfred").removeConfiguration("ignored_vms", { inWorkflow: envVar("alfred_workflow_bundleid") })</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>ignore</string>
+						<key>outputlabel</key>
+						<string>Show Unignored</string>
+						<key>uid</key>
+						<string>5AC97E9B-4430-454C-A79A-FD12AB5EF7D1</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>unignore</string>
+						<key>outputlabel</key>
+						<string>Show Ignored</string>
+						<key>uid</key>
+						<string>FEC51344-76BA-4005-B0E1-9CFFA26E8BE5</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
 				<string></string>
-				<key>type</key>
-				<integer>7</integer>
+				<key>hideelse</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>D40AA19D-AF50-44E0-8514-F7A62BDADD48</string>
+			<string>6314A951-3949-4C57-AAE6-C2B780DA0225</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>list_not_ignored</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>53D126D5-BBFD-4668-A19B-55328F10FEBC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>list_ignored</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>EA1CB063-2FFF-4C54-B6DB-BDF6006E97A5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>CA3B4D74-3B3F-4AB1-B619-739BD2F6AB70</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -871,178 +1193,206 @@ Install [`tart`](https://github.com/cirruslabs/tart) with `brew install cirrusla
 
 ## Usage
 
-Search installed virtual machines via the `tart` keyword.
+Search installed virtual machines via the `tart` keyword. List VMs ignored from the main list with the `itart` keyword.
 
 ![Listing installed virtual machines](images/about/tart.png)
 
-* &lt;kbd&gt;↩&lt;/kbd&gt;: Run.
+* &lt;kbd&gt;↩&lt;/kbd&gt;: Run virtual machine.
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Overwrite with another. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; again to restart the original.
 * &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Clone. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; when naming to start the new one.
 * &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Delete.
-* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Ignore.
-* &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Reset ignored.</string>
+* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Ignore or Unignore.
+* &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Switch between Main and Ignored lists.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0C43D32F-4524-4292-A2F0-98BAB312E8E2</key>
 		<dict>
 			<key>xpos</key>
-			<real>370</real>
+			<real>635</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>210</real>
 		</dict>
 		<key>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</key>
 		<dict>
 			<key>note</key>
 			<string>Run VM</string>
 			<key>xpos</key>
-			<real>1115</real>
+			<real>1380</real>
 			<key>ypos</key>
-			<real>40</real>
+			<real>80</real>
 		</dict>
 		<key>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</key>
 		<dict>
 			<key>xpos</key>
-			<real>220</real>
+			<real>485</real>
 			<key>ypos</key>
-			<real>370</real>
+			<real>705</real>
 		</dict>
 		<key>27FA96FD-E50D-4CEB-A4C7-D96846223619</key>
 		<dict>
 			<key>note</key>
-			<string>Ignore VM</string>
+			<string>Ignore or Unignore VM</string>
 			<key>xpos</key>
-			<real>515</real>
+			<real>780</real>
 			<key>ypos</key>
-			<real>680</real>
+			<real>675</real>
 		</dict>
 		<key>2A1CB15A-C5A9-45D2-AEFF-7B901E358AF6</key>
 		<dict>
 			<key>note</key>
 			<string>List VMs</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>75</real>
 			<key>ypos</key>
-			<real>40</real>
+			<real>65</real>
 		</dict>
 		<key>418FD397-A8AB-444C-A181-441CEB60881C</key>
 		<dict>
 			<key>note</key>
 			<string>Clone VM</string>
 			<key>xpos</key>
-			<real>770</real>
+			<real>1035</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>180</real>
 		</dict>
 		<key>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</key>
 		<dict>
 			<key>xpos</key>
-			<real>925</real>
+			<real>1190</real>
 			<key>ypos</key>
-			<real>410</real>
+			<real>405</real>
 		</dict>
 		<key>53D126D5-BBFD-4668-A19B-55328F10FEBC</key>
 		<dict>
 			<key>xpos</key>
-			<real>175</real>
+			<real>440</real>
 			<key>ypos</key>
-			<real>415</real>
+			<real>840</real>
 		</dict>
 		<key>5D98957A-486E-472F-A008-6E3FDBB89A0D</key>
 		<dict>
 			<key>xpos</key>
+			<real>530</real>
+			<key>ypos</key>
+			<real>550</real>
+		</dict>
+		<key>6314A951-3949-4C57-AAE6-C2B780DA0225</key>
+		<dict>
+			<key>xpos</key>
+			<real>1035</real>
+			<key>ypos</key>
+			<real>695</real>
+		</dict>
+		<key>6C955C02-FFC6-4140-A47C-4B277D9AFD03</key>
+		<dict>
+			<key>xpos</key>
 			<real>265</real>
 			<key>ypos</key>
-			<real>305</real>
+			<real>115</real>
 		</dict>
 		<key>894EA6FF-FFF7-4FD1-BC7E-40BF715E9139</key>
 		<dict>
 			<key>xpos</key>
-			<real>515</real>
+			<real>780</real>
 			<key>ypos</key>
-			<real>380</real>
+			<real>375</real>
 		</dict>
 		<key>9536190C-FA59-4461-91AD-30AF02A2AAC8</key>
 		<dict>
 			<key>xpos</key>
-			<real>325</real>
+			<real>590</real>
 			<key>ypos</key>
-			<real>260</real>
+			<real>405</real>
 		</dict>
 		<key>95BA427F-9887-4356-BC4C-CB5529A26FF8</key>
 		<dict>
 			<key>xpos</key>
-			<real>1000</real>
+			<real>1265</real>
 			<key>ypos</key>
-			<real>410</real>
+			<real>405</real>
 		</dict>
 		<key>96020B05-A3BE-49A2-B638-5849BB122534</key>
 		<dict>
 			<key>xpos</key>
-			<real>515</real>
+			<real>780</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>180</real>
 		</dict>
 		<key>9CA1563B-A17E-4162-91B7-3205B9146460</key>
 		<dict>
 			<key>note</key>
 			<string>Delete VM</string>
 			<key>xpos</key>
-			<real>515</real>
+			<real>780</real>
 			<key>ypos</key>
-			<real>520</real>
+			<real>515</real>
 		</dict>
 		<key>9FA51A6D-2460-46A9-94C6-1A46DE3DC880</key>
 		<dict>
 			<key>note</key>
 			<string>Clone VM</string>
 			<key>xpos</key>
-			<real>770</real>
+			<real>1035</real>
 			<key>ypos</key>
-			<real>380</real>
+			<real>375</real>
 		</dict>
 		<key>AF091797-929C-4FAB-8224-DECA10BE0AFB</key>
 		<dict>
 			<key>xpos</key>
-			<real>925</real>
+			<real>1190</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>210</real>
 		</dict>
 		<key>B251ECCB-821D-4ABB-820F-44732096C853</key>
 		<dict>
 			<key>xpos</key>
-			<real>770</real>
+			<real>1310</real>
 			<key>ypos</key>
-			<real>680</real>
+			<real>810</real>
 		</dict>
 		<key>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</key>
 		<dict>
 			<key>xpos</key>
-			<real>680</real>
+			<real>945</real>
 			<key>ypos</key>
-			<real>285</real>
+			<real>280</real>
 		</dict>
-		<key>D40AA19D-AF50-44E0-8514-F7A62BDADD48</key>
+		<key>B6422FB2-468A-4787-9C1B-1C5054CA9B61</key>
 		<dict>
 			<key>note</key>
-			<string>Reset Ignored VMs</string>
+			<string>List Ignored VMs</string>
 			<key>xpos</key>
-			<real>515</real>
+			<real>75</real>
 			<key>ypos</key>
-			<real>840</real>
+			<real>275</real>
+		</dict>
+		<key>CA3B4D74-3B3F-4AB1-B619-739BD2F6AB70</key>
+		<dict>
+			<key>xpos</key>
+			<real>395</real>
+			<key>ypos</key>
+			<real>975</real>
+		</dict>
+		<key>EA1CB063-2FFF-4C54-B6DB-BDF6006E97A5</key>
+		<dict>
+			<key>xpos</key>
+			<real>1190</real>
+			<key>ypos</key>
+			<real>945</real>
 		</dict>
 		<key>ED97B753-872C-47B2-8375-584569232A3D</key>
 		<dict>
 			<key>xpos</key>
-			<real>1000</real>
+			<real>1265</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>210</real>
 		</dict>
 		<key>EF1EB707-F7E8-4C1F-BEFF-AA12987DF65F</key>
 		<dict>
 			<key>xpos</key>
-			<real>680</real>
+			<real>945</real>
 			<key>ypos</key>
-			<real>340</real>
+			<real>335</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -1062,11 +1412,32 @@ Search installed virtual machines via the `tart` keyword.
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string>List VMs Keyword</string>
+			<string>Main Keyword</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>list_vms_keyword</string>
+			<string>main_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>itart</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Ignored Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>ignored_keyword</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1100,7 +1471,8 @@ Search installed virtual machines via the `tart` keyword.
 				<integer>6</integer>
 			</dict>
 			<key>description</key>
-			<string>Newline-separared list of virtual machines to hide from main list.</string>
+			<string>Newline-separared list of virtual machines to hide in Main Keyword.
+View them with the Ignored Keyword.</string>
 			<key>label</key>
 			<string>Ignored VMs</string>
 			<key>type</key>
