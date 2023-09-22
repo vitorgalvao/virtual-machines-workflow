@@ -1443,7 +1443,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<false/>
+				<true/>
 				<key>required</key>
 				<false/>
 				<key>text</key>
