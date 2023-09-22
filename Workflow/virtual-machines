@@ -59,7 +59,7 @@ function run(argv) {
   // List VMs
   const sfItems = matchingVMs.map(vmDetails => {
     return {
-      variables: { action: run },
+      variables: { action: "run" },
       uid: vmDetails["Name"] + vmDetails["Source"],
       title: vmDetails["Name"],
       subtitle: vmDetails["Source"],
