@@ -1183,7 +1183,7 @@ function run(argv) {
   const task = $.NSTask.alloc.init
   const stdout = $.NSPipe.pipe
 
-  task.executableURL = $.NSURL.alloc.initFileURLWithPath("/usr/libexec/PlistBuddy")
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/libexec/PlistBuddy")
   task.arguments = ["-c", "Print :ignored_vms", "prefs.plist"]
   task.standardOutput = stdout
   task.launchAndReturnError(false)
