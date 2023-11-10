@@ -621,9 +621,9 @@
 				<key>script</key>
 				<string>if [[ "${suspendable}" -eq 1 ]]
 then
-  tart run --suspendable "${1}"
+  tart run --capture-system-keys --suspendable "${1}"
 else
-  tart run "${1}"
+  tart run --capture-system-keys "${1}"
 fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
