@@ -19,6 +19,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</key>
+		<array/>
 		<key>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</key>
 		<array>
 			<dict>
@@ -156,7 +158,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
+				<string>DC89AE54-7788-4FA9-B661-0B2532F88C42</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -236,7 +238,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
+				<string>DC89AE54-7788-4FA9-B661-0B2532F88C42</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -384,7 +386,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
+				<string>DC89AE54-7788-4FA9-B661-0B2532F88C42</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -511,6 +513,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>DC89AE54-7788-4FA9-B661-0B2532F88C42</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E4FCF536-657A-4375-92F2-DDA50D295B9A</key>
 		<array>
 			<dict>
@@ -528,7 +543,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
+				<string>DC89AE54-7788-4FA9-B661-0B2532F88C42</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -665,6 +680,14 @@ fi</string>
 			<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.hidealfred</string>
+			<key>uid</key>
+			<string>DC89AE54-7788-4FA9-B661-0B2532F88C42</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1618,7 +1641,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>note</key>
 			<string>Run VM</string>
 			<key>xpos</key>
-			<real>1380</real>
+			<real>1480</real>
 			<key>ypos</key>
 			<real>80</real>
 		</dict>
@@ -1698,7 +1721,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 		<key>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</key>
 		<dict>
 			<key>xpos</key>
-			<real>1190</real>
+			<real>1195</real>
 			<key>ypos</key>
 			<real>405</real>
 		</dict>
@@ -1761,7 +1784,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 		<key>95BA427F-9887-4356-BC4C-CB5529A26FF8</key>
 		<dict>
 			<key>xpos</key>
-			<real>1265</real>
+			<real>1270</real>
 			<key>ypos</key>
 			<real>405</real>
 		</dict>
@@ -1807,7 +1830,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 		<key>AF091797-929C-4FAB-8224-DECA10BE0AFB</key>
 		<dict>
 			<key>xpos</key>
-			<real>1190</real>
+			<real>1195</real>
 			<key>ypos</key>
 			<real>210</real>
 		</dict>
@@ -1841,6 +1864,13 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>ypos</key>
 			<real>975</real>
 		</dict>
+		<key>DC89AE54-7788-4FA9-B661-0B2532F88C42</key>
+		<dict>
+			<key>xpos</key>
+			<real>1395</real>
+			<key>ypos</key>
+			<real>110</real>
+		</dict>
 		<key>E4FCF536-657A-4375-92F2-DDA50D295B9A</key>
 		<dict>
 			<key>xpos</key>
@@ -1858,7 +1888,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 		<key>ED97B753-872C-47B2-8375-584569232A3D</key>
 		<dict>
 			<key>xpos</key>
-			<real>1265</real>
+			<real>1270</real>
 			<key>ypos</key>
 			<real>210</real>
 		</dict>
