@@ -2002,7 +2002,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 				<integer>6</integer>
 			</dict>
 			<key>description</key>
-			<string>Newline-separared list of virtual machines to hide in Main Keyword.
+			<string>Newline-separared list of virtual machines to hide in Main list.
 View them with the Ignored Keyword.</string>
 			<key>label</key>
 			<string>Ignored VMs</string>
