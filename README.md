@@ -6,7 +6,9 @@ Run and Manage Virtual Machines
 
 ## Setup
 
-Install [`tart`](https://github.com/cirruslabs/tart) with `brew install cirruslabs/cli/tart` and use it to install your virtual machines.
+Install [`tart`](https://github.com/cirruslabs/tart) with `brew install cirruslabs/cli/tart` and use it to install your virtual machines. You can install Apple Device Software Update Files (`.ipsw`) via the [Universal Action](https://www.alfredapp.com/help/features/universal-actions/).
+
+![Universal Action to install IPSW](Workflow/images/about/ipsw.png)
 
 ## Usage
 
