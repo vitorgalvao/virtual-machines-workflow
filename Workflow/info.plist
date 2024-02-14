@@ -682,6 +682,11 @@ fi</string>
 			<integer>2</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>unstackview</key>
+				<false/>
+			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.hidealfred</string>
 			<key>uid</key>
@@ -1621,12 +1626,12 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 
 ![Listing installed virtual machines](images/about/tart.png)
 
-* &lt;kbd&gt;↩&lt;/kbd&gt;: Run virtual machine.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Overwrite with another. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; again to restart the original.
-* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Clone. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; when naming to start the new one.
-* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Delete.
-* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Ignore or Unignore.
-* &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Switch between Main and Ignored lists.</string>
+* &lt;kbd&gt;↩&lt;/kbd&gt; Run virtual machine.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Overwrite with another. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; again to restart the original.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Clone. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; when naming to start the new one.
+* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Delete.
+* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Ignore or Unignore.
+* &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Switch between Main and Ignored lists.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0C43D32F-4524-4292-A2F0-98BAB312E8E2</key>
