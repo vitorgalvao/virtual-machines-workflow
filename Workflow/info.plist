@@ -632,6 +632,8 @@
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -855,6 +857,8 @@ fi</string>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -997,6 +1001,8 @@ tart clone "${1}" "${orig_vm}"</string>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -1088,6 +1094,8 @@ tart clone "${1}" "${orig_vm}"</string>
 			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>{query}</string>
 				<key>text</key>
@@ -1428,6 +1436,8 @@ function run(argv) {
 			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>{query}</string>
 				<key>text</key>
