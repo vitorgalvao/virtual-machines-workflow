@@ -456,7 +456,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>AF091797-929C-4FAB-8224-DECA10BE0AFB</key>
