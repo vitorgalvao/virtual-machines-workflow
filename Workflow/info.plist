@@ -49,6 +49,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>12E50B4D-7A5A-415E-A5E5-4D23653D1638</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>65B11164-984F-4B1A-91BD-0BC8252CA9E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>14FD359C-310C-4A92-8A1D-78003F4F6EF7</key>
 		<array>
 			<dict>
@@ -62,11 +75,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1F9EAB7B-93E3-4B28-8C39-66265D13BC89</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BA2FE623-8209-4532-B601-64D49447E76B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>221592B7-1A98-4C7D-8D26-8880A4E90468</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>65B11164-984F-4B1A-91BD-0BC8252CA9E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>27FA96FD-E50D-4CEB-A4C7-D96846223619</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6314A951-3949-4C57-AAE6-C2B780DA0225</string>
+				<string>646DAC9B-932D-4600-A670-EA39F20C18E1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -79,7 +118,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6C955C02-FFC6-4140-A47C-4B277D9AFD03</string>
+				<string>E0A3E07C-EEA6-4936-945D-1CB398FA6BA9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -143,7 +182,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>95BA427F-9887-4356-BC4C-CB5529A26FF8</string>
+				<string>1F9EAB7B-93E3-4B28-8C39-66265D13BC89</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -153,12 +192,9 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-		</array>
-		<key>4DFED2B2-122C-45D4-B1BC-6B689A842358</key>
-		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DC89AE54-7788-4FA9-B661-0B2532F88C42</string>
+				<string>95BA427F-9887-4356-BC4C-CB5529A26FF8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -167,11 +203,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>53D126D5-BBFD-4668-A19B-55328F10FEBC</key>
+		<key>4DFED2B2-122C-45D4-B1BC-6B689A842358</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
+				<string>DC89AE54-7788-4FA9-B661-0B2532F88C42</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -207,29 +243,28 @@
 				<false/>
 			</dict>
 		</array>
-		<key>6314A951-3949-4C57-AAE6-C2B780DA0225</key>
+		<key>646DAC9B-932D-4600-A670-EA39F20C18E1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
+				<string>65B11164-984F-4B1A-91BD-0BC8252CA9E3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>sourceoutputuid</key>
-				<string>5AC97E9B-4430-454C-A79A-FD12AB5EF7D1</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>6531A2E5-6DC0-4121-98C9-ED1C1A33FE74</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EA1CB063-2FFF-4C54-B6DB-BDF6006E97A5</string>
+				<string>6C955C02-FFC6-4140-A47C-4B277D9AFD03</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>sourceoutputuid</key>
-				<string>FEC51344-76BA-4005-B0E1-9CFFA26E8BE5</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -310,7 +345,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>53D126D5-BBFD-4668-A19B-55328F10FEBC</string>
+				<string>221592B7-1A98-4C7D-8D26-8880A4E90468</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -322,7 +357,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>CA3B4D74-3B3F-4AB1-B619-739BD2F6AB70</string>
+				<string>12E50B4D-7A5A-415E-A5E5-4D23653D1638</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -386,7 +421,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DC89AE54-7788-4FA9-B661-0B2532F88C42</string>
+				<string>4DFED2B2-122C-45D4-B1BC-6B689A842358</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -473,6 +508,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1F9EAB7B-93E3-4B28-8C39-66265D13BC89</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</key>
 		<array>
@@ -491,7 +536,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6C955C02-FFC6-4140-A47C-4B277D9AFD03</string>
+				<string>6531A2E5-6DC0-4121-98C9-ED1C1A33FE74</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -500,11 +545,11 @@
 				<true/>
 			</dict>
 		</array>
-		<key>CA3B4D74-3B3F-4AB1-B619-739BD2F6AB70</key>
+		<key>DC89AE54-7788-4FA9-B661-0B2532F88C42</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EA1CB063-2FFF-4C54-B6DB-BDF6006E97A5</string>
+				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -513,11 +558,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>DC89AE54-7788-4FA9-B661-0B2532F88C42</key>
+		<key>E0A3E07C-EEA6-4936-945D-1CB398FA6BA9</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
+				<string>6C955C02-FFC6-4140-A47C-4B277D9AFD03</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -588,6 +633,46 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F39FD23D-A1DE-4A66-980C-170CD592D570</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F8565B75-D938-487D-BE9B-483BFEE09225</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F8565B75-D938-487D-BE9B-483BFEE09225</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2A1CB15A-C5A9-45D2-AEFF-7B901E358AF6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F0758D89-056E-48F3-B0B2-8764D46E8062</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B6422FB2-468A-4787-9C1B-1C5054CA9B61</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>B0CBA71F-C5DB-460E-8B7E-E548FCE58E5F</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Vítor Galvão</string>
@@ -645,8 +730,8 @@
 			</dict>
 			<key>inboundconfig</key>
 			<dict>
-				<key>externalid</key>
-				<string>list_not_ignored</string>
+				<key>usecustominputarg</key>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -682,6 +767,26 @@ fi</string>
 			<string>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>current_list</key>
+					<string>main</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>E0A3E07C-EEA6-4936-945D-1CB398FA6BA9</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -902,20 +1007,32 @@ tart clone "${1}" "${orig_vm}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>show_list</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>F39FD23D-A1DE-4A66-980C-170CD592D570</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
-				<string></string>
+				<string>{var:orig_vm}</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
-				<dict>
-					<key>orig_vm</key>
-					<string>{query}</string>
-				</dict>
+				<dict/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>0C43D32F-4524-4292-A2F0-98BAB312E8E2</string>
+			<string>ED97B753-872C-47B2-8375-584569232A3D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -940,9 +1057,9 @@ tart clone "${1}" "${orig_vm}"</string>
 					</dict>
 				</array>
 				<key>elselabel</key>
-				<string>else</string>
+				<string>Show List</string>
 				<key>hideelse</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -954,17 +1071,105 @@ tart clone "${1}" "${orig_vm}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>main</string>
+						<key>outputlabel</key>
+						<string>Main</string>
+						<key>uid</key>
+						<string>F0758D89-056E-48F3-B0B2-8764D46E8062</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>ignored</string>
+						<key>outputlabel</key>
+						<string>Ignored</string>
+						<key>uid</key>
+						<string>B0CBA71F-C5DB-460E-8B7E-E548FCE58E5F</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>F8565B75-D938-487D-BE9B-483BFEE09225</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
-				<string>{var:orig_vm}</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
-				<dict/>
+				<dict>
+					<key>orig_vm</key>
+					<string>{query}</string>
+				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>ED97B753-872C-47B2-8375-584569232A3D</string>
+			<string>0C43D32F-4524-4292-A2F0-98BAB312E8E2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>show_list</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>BA2FE623-8209-4532-B601-64D49447E76B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>restart</key>
+					<string>true</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1014,8 +1219,8 @@ tart clone "${1}" "${orig_vm}"</string>
 			</dict>
 			<key>inboundconfig</key>
 			<dict>
-				<key>externalid</key>
-				<string>list_ignored</string>
+				<key>usecustominputarg</key>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -1028,19 +1233,36 @@ tart clone "${1}" "${orig_vm}"</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string>{var:current_list}</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1F9EAB7B-93E3-4B28-8C39-66265D13BC89</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
 				<dict>
-					<key>restart</key>
-					<string>true</string>
+					<key>current_list</key>
+					<string>ignored</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</string>
+			<string>6531A2E5-6DC0-4121-98C9-ED1C1A33FE74</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1113,6 +1335,38 @@ tart clone "${1}" "${orig_vm}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:restart}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Show List</string>
+						<key>uid</key>
+						<string>A2BFDBCD-7006-44FD-88B9-14695FF37D99</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Restart</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -1144,38 +1398,6 @@ tart clone "${1}" "${orig_vm}"</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>95BA427F-9887-4356-BC4C-CB5529A26FF8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:restart}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Restart VM</string>
-						<key>uid</key>
-						<string>A2BFDBCD-7006-44FD-88B9-14695FF37D99</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1302,52 +1524,6 @@ function run(argv) {
 			<integer>2</integer>
 		</dict>
 		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:action}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>ignore</string>
-						<key>outputlabel</key>
-						<string>Show Unignored</string>
-						<key>uid</key>
-						<string>5AC97E9B-4430-454C-A79A-FD12AB5EF7D1</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:action}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>unignore</string>
-						<key>outputlabel</key>
-						<string>Show Ignored</string>
-						<key>uid</key>
-						<string>FEC51344-76BA-4005-B0E1-9CFFA26E8BE5</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string></string>
-				<key>hideelse</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>6314A951-3949-4C57-AAE6-C2B780DA0225</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -1358,27 +1534,17 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>externaltriggerid</key>
-				<string>list_not_ignored</string>
-				<key>passinputasargument</key>
+				<key>argument</key>
+				<string>{var:current_list}</string>
+				<key>passthroughargument</key>
 				<false/>
-				<key>passvariables</key>
-				<false/>
-				<key>workflowbundleid</key>
-				<string>self</string>
+				<key>variables</key>
+				<dict/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>B251ECCB-821D-4ABB-820F-44732096C853</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>53D126D5-BBFD-4668-A19B-55328F10FEBC</string>
+			<string>646DAC9B-932D-4600-A670-EA39F20C18E1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1386,9 +1552,9 @@ function run(argv) {
 			<key>config</key>
 			<dict>
 				<key>externaltriggerid</key>
-				<string>list_ignored</string>
+				<string>show_list</string>
 				<key>passinputasargument</key>
-				<false/>
+				<true/>
 				<key>passvariables</key>
 				<false/>
 				<key>workflowbundleid</key>
@@ -1397,15 +1563,41 @@ function run(argv) {
 			<key>type</key>
 			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
-			<string>EA1CB063-2FFF-4C54-B6DB-BDF6006E97A5</string>
+			<string>65B11164-984F-4B1A-91BD-0BC8252CA9E3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>main</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>CA3B4D74-3B3F-4AB1-B619-739BD2F6AB70</string>
+			<string>221592B7-1A98-4C7D-8D26-8880A4E90468</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>ignored</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>12E50B4D-7A5A-415E-A5E5-4D23653D1638</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1647,7 +1839,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 		<key>0C43D32F-4524-4292-A2F0-98BAB312E8E2</key>
 		<dict>
 			<key>xpos</key>
-			<real>635</real>
+			<real>975</real>
 			<key>ypos</key>
 			<real>210</real>
 		</dict>
@@ -1656,39 +1848,60 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>note</key>
 			<string>Run VM</string>
 			<key>xpos</key>
-			<real>1480</real>
+			<real>2080</real>
 			<key>ypos</key>
 			<real>80</real>
 		</dict>
 		<key>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</key>
 		<dict>
 			<key>xpos</key>
-			<real>485</real>
+			<real>825</real>
 			<key>ypos</key>
 			<real>705</real>
 		</dict>
 		<key>0F824A69-2AE9-4DEF-A09C-DDFC422024C2</key>
 		<dict>
 			<key>xpos</key>
-			<real>1190</real>
+			<real>1530</real>
 			<key>ypos</key>
 			<real>1295</real>
+		</dict>
+		<key>12E50B4D-7A5A-415E-A5E5-4D23653D1638</key>
+		<dict>
+			<key>xpos</key>
+			<real>730</real>
+			<key>ypos</key>
+			<real>975</real>
 		</dict>
 		<key>14FD359C-310C-4A92-8A1D-78003F4F6EF7</key>
 		<dict>
 			<key>note</key>
 			<string>Remove VM from ignored list</string>
 			<key>xpos</key>
-			<real>675</real>
+			<real>1015</real>
 			<key>ypos</key>
 			<real>625</real>
+		</dict>
+		<key>1F9EAB7B-93E3-4B28-8C39-66265D13BC89</key>
+		<dict>
+			<key>xpos</key>
+			<real>1660</real>
+			<key>ypos</key>
+			<real>310</real>
+		</dict>
+		<key>221592B7-1A98-4C7D-8D26-8880A4E90468</key>
+		<dict>
+			<key>xpos</key>
+			<real>780</real>
+			<key>ypos</key>
+			<real>840</real>
 		</dict>
 		<key>27FA96FD-E50D-4CEB-A4C7-D96846223619</key>
 		<dict>
 			<key>note</key>
 			<string>Ignore or Unignore VM</string>
 			<key>xpos</key>
-			<real>780</real>
+			<real>1120</real>
 			<key>ypos</key>
 			<real>675</real>
 		</dict>
@@ -1697,23 +1910,23 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>note</key>
 			<string>List VMs</string>
 			<key>xpos</key>
-			<real>75</real>
+			<real>335</real>
 			<key>ypos</key>
-			<real>65</real>
+			<real>80</real>
 		</dict>
 		<key>34F12572-91DC-424A-8831-24DDFFF378B7</key>
 		<dict>
 			<key>note</key>
 			<string>Create VM</string>
 			<key>xpos</key>
-			<real>1035</real>
+			<real>1375</real>
 			<key>ypos</key>
 			<real>1125</real>
 		</dict>
 		<key>3E5CB7D7-29DB-4FED-8D44-CC408639275F</key>
 		<dict>
 			<key>xpos</key>
-			<real>1190</real>
+			<real>1530</real>
 			<key>ypos</key>
 			<real>1155</real>
 		</dict>
@@ -1722,91 +1935,98 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>note</key>
 			<string>Clone VM</string>
 			<key>xpos</key>
-			<real>1035</real>
+			<real>1375</real>
 			<key>ypos</key>
 			<real>180</real>
 		</dict>
 		<key>446CD12C-1FAD-4015-B940-0CF7D05DCFB9</key>
 		<dict>
 			<key>xpos</key>
-			<real>1310</real>
+			<real>1650</real>
 			<key>ypos</key>
 			<real>1265</real>
 		</dict>
 		<key>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</key>
 		<dict>
 			<key>xpos</key>
-			<real>1195</real>
+			<real>1535</real>
 			<key>ypos</key>
-			<real>405</real>
+			<real>395</real>
 		</dict>
 		<key>4DFED2B2-122C-45D4-B1BC-6B689A842358</key>
 		<dict>
 			<key>xpos</key>
-			<real>1460</real>
+			<real>1910</real>
 			<key>ypos</key>
 			<real>1155</real>
-		</dict>
-		<key>53D126D5-BBFD-4668-A19B-55328F10FEBC</key>
-		<dict>
-			<key>xpos</key>
-			<real>440</real>
-			<key>ypos</key>
-			<real>840</real>
 		</dict>
 		<key>5D98957A-486E-472F-A008-6E3FDBB89A0D</key>
 		<dict>
 			<key>xpos</key>
-			<real>530</real>
+			<real>870</real>
 			<key>ypos</key>
 			<real>550</real>
 		</dict>
-		<key>6314A951-3949-4C57-AAE6-C2B780DA0225</key>
+		<key>646DAC9B-932D-4600-A670-EA39F20C18E1</key>
 		<dict>
 			<key>xpos</key>
-			<real>1035</real>
+			<real>1415</real>
 			<key>ypos</key>
-			<real>695</real>
+			<real>705</real>
+		</dict>
+		<key>6531A2E5-6DC0-4121-98C9-ED1C1A33FE74</key>
+		<dict>
+			<key>xpos</key>
+			<real>505</real>
+			<key>ypos</key>
+			<real>320</real>
+		</dict>
+		<key>65B11164-984F-4B1A-91BD-0BC8252CA9E3</key>
+		<dict>
+			<key>xpos</key>
+			<real>1510</real>
+			<key>ypos</key>
+			<real>785</real>
 		</dict>
 		<key>6C955C02-FFC6-4140-A47C-4B277D9AFD03</key>
 		<dict>
 			<key>xpos</key>
-			<real>265</real>
+			<real>605</real>
 			<key>ypos</key>
 			<real>115</real>
 		</dict>
 		<key>7F8764F7-D18B-4A41-88E8-9E2D9C46A7C8</key>
 		<dict>
 			<key>xpos</key>
-			<real>395</real>
+			<real>735</real>
 			<key>ypos</key>
 			<real>1155</real>
 		</dict>
 		<key>894EA6FF-FFF7-4FD1-BC7E-40BF715E9139</key>
 		<dict>
 			<key>xpos</key>
-			<real>780</real>
+			<real>1120</real>
 			<key>ypos</key>
 			<real>375</real>
 		</dict>
 		<key>9536190C-FA59-4461-91AD-30AF02A2AAC8</key>
 		<dict>
 			<key>xpos</key>
-			<real>590</real>
+			<real>930</real>
 			<key>ypos</key>
 			<real>405</real>
 		</dict>
 		<key>95BA427F-9887-4356-BC4C-CB5529A26FF8</key>
 		<dict>
 			<key>xpos</key>
-			<real>1270</real>
+			<real>1660</real>
 			<key>ypos</key>
-			<real>405</real>
+			<real>420</real>
 		</dict>
 		<key>96020B05-A3BE-49A2-B638-5849BB122534</key>
 		<dict>
 			<key>xpos</key>
-			<real>780</real>
+			<real>1120</real>
 			<key>ypos</key>
 			<real>180</real>
 		</dict>
@@ -1815,14 +2035,14 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>note</key>
 			<string>Delete VM</string>
 			<key>xpos</key>
-			<real>780</real>
+			<real>1120</real>
 			<key>ypos</key>
 			<real>515</real>
 		</dict>
 		<key>9D1FC6C1-2100-4A39-ADF3-8476D229A5D9</key>
 		<dict>
 			<key>xpos</key>
-			<real>1265</real>
+			<real>1605</real>
 			<key>ypos</key>
 			<real>1155</real>
 		</dict>
@@ -1831,35 +2051,28 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>note</key>
 			<string>Clone VM</string>
 			<key>xpos</key>
-			<real>1035</real>
+			<real>1375</real>
 			<key>ypos</key>
 			<real>375</real>
 		</dict>
 		<key>A086DD96-0F60-434C-91F7-F2823C2CC9AD</key>
 		<dict>
 			<key>xpos</key>
-			<real>75</real>
+			<real>335</real>
 			<key>ypos</key>
 			<real>1125</real>
 		</dict>
 		<key>AF091797-929C-4FAB-8224-DECA10BE0AFB</key>
 		<dict>
 			<key>xpos</key>
-			<real>1195</real>
+			<real>1535</real>
 			<key>ypos</key>
-			<real>210</real>
-		</dict>
-		<key>B251ECCB-821D-4ABB-820F-44732096C853</key>
-		<dict>
-			<key>xpos</key>
-			<real>1310</real>
-			<key>ypos</key>
-			<real>810</real>
+			<real>200</real>
 		</dict>
 		<key>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</key>
 		<dict>
 			<key>xpos</key>
-			<real>945</real>
+			<real>1285</real>
 			<key>ypos</key>
 			<real>280</real>
 		</dict>
@@ -1868,58 +2081,72 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>note</key>
 			<string>List Ignored VMs</string>
 			<key>xpos</key>
-			<real>75</real>
+			<real>335</real>
 			<key>ypos</key>
-			<real>275</real>
+			<real>290</real>
 		</dict>
-		<key>CA3B4D74-3B3F-4AB1-B619-739BD2F6AB70</key>
+		<key>BA2FE623-8209-4532-B601-64D49447E76B</key>
 		<dict>
 			<key>xpos</key>
-			<real>395</real>
+			<real>1785</real>
 			<key>ypos</key>
-			<real>975</real>
+			<real>280</real>
 		</dict>
 		<key>DC89AE54-7788-4FA9-B661-0B2532F88C42</key>
 		<dict>
 			<key>xpos</key>
-			<real>1395</real>
+			<real>1995</real>
+			<key>ypos</key>
+			<real>110</real>
+		</dict>
+		<key>E0A3E07C-EEA6-4936-945D-1CB398FA6BA9</key>
+		<dict>
+			<key>xpos</key>
+			<real>505</real>
 			<key>ypos</key>
 			<real>110</real>
 		</dict>
 		<key>E4FCF536-657A-4375-92F2-DDA50D295B9A</key>
 		<dict>
 			<key>xpos</key>
-			<real>945</real>
+			<real>1285</real>
 			<key>ypos</key>
 			<real>1085</real>
-		</dict>
-		<key>EA1CB063-2FFF-4C54-B6DB-BDF6006E97A5</key>
-		<dict>
-			<key>xpos</key>
-			<real>1190</real>
-			<key>ypos</key>
-			<real>945</real>
 		</dict>
 		<key>ED97B753-872C-47B2-8375-584569232A3D</key>
 		<dict>
 			<key>xpos</key>
-			<real>1270</real>
+			<real>1660</real>
 			<key>ypos</key>
-			<real>210</real>
+			<real>195</real>
 		</dict>
 		<key>EF1EB707-F7E8-4C1F-BEFF-AA12987DF65F</key>
 		<dict>
 			<key>xpos</key>
-			<real>945</real>
+			<real>1285</real>
 			<key>ypos</key>
 			<real>335</real>
 		</dict>
 		<key>F1461989-6794-4031-A242-CC7AFA566DD6</key>
 		<dict>
 			<key>xpos</key>
-			<real>780</real>
+			<real>1120</real>
 			<key>ypos</key>
 			<real>1125</real>
+		</dict>
+		<key>F39FD23D-A1DE-4A66-980C-170CD592D570</key>
+		<dict>
+			<key>xpos</key>
+			<real>55</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>F8565B75-D938-487D-BE9B-483BFEE09225</key>
+		<dict>
+			<key>xpos</key>
+			<real>220</real>
+			<key>ypos</key>
+			<real>205</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

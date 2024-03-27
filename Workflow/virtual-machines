@@ -1,13 +1,5 @@
 #!/usr/bin/osascript -l JavaScript
 
-// String -> String
-function envVar(varName) {
-  return $.NSProcessInfo
-    .processInfo
-    .environment
-    .objectForKey(varName).js
-}
-
 // String... -> String
 function runCommandJSON(...arguments) {
   const task = $.NSTask.alloc.init
