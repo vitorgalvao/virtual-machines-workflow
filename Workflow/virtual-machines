@@ -43,7 +43,7 @@ function run(argv) {
 
   // If no VMs found
   if (matchingVMs.length === 0) return JSON.stringify({items: [{
-    title: "No matching virtual machines found",
+    title: "No Matching Virtual Machines Found",
     valid: false,
     mods: { fn: modifiers["fn"] } // Modifier to switch list
   }]})
