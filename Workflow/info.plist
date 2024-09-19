@@ -1473,33 +1473,21 @@ tart clone "${1}" "${orig_vm}"</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>function envVar(varName) {
+				<string>// Helpers
+function envVar(varName) {
   return $.NSProcessInfo
     .processInfo
     .environment
     .objectForKey(varName).js
 }
 
+// Main
 function run(argv) {
-  const modeRemove = envVar("action") === "unignore" // Either "ignore" to add to list or "unignore" to remove from it
   const vm = argv[0]
-
-  // Read plist for ignored VMs
-  const task = $.NSTask.alloc.init
-  const stdout = $.NSPipe.pipe
-
-  task.executableURL = $.NSURL.fileURLWithPath("/usr/libexec/PlistBuddy")
-  task.arguments = ["-c", "Print :ignored_vms", "prefs.plist"]
-  task.standardOutput = stdout
-  task.launchAndReturnError(false)
-
-  const dataOut = stdout.fileHandleForReading.readDataToEndOfFileAndReturnError(false)
-  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
-
-  task.waitUntilExit
+  const modeRemove = envVar("action") === "unignore" // Either "ignore" to add to list or "unignore" to remove from it
 
   // Set ignored
-  const origIgnored = stringOut.split("\n").filter(entry =&gt; entry) // Split and remove empty entries
+  const origIgnored = envVar("ignored_vms")?.split("\n")?.filter(entry =&gt; entry) || [] // Split and remove empty entries
   const ignored = modeRemove ?
     origIgnored.filter(entry =&gt; entry !== vm) :
     origIgnored.concat(vm)
