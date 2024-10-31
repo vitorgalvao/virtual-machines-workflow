@@ -1640,7 +1640,7 @@ function run(argv) {
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>tart create "${1}" --from-ipsw "${ipsw}"
+				<string>tart create "${1}" --disk-size "${new_disk_size}" --from-ipsw "${ipsw}"
 echo $?</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -2218,6 +2218,31 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<string>checkbox</string>
 			<key>variable</key>
 			<string>suspendable</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>defaultvalue</key>
+				<integer>50</integer>
+				<key>markercount</key>
+				<integer>11</integer>
+				<key>maxvalue</key>
+				<integer>100</integer>
+				<key>minvalue</key>
+				<integer>50</integer>
+				<key>onlystoponmarkers</key>
+				<true/>
+				<key>showmarkers</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>In GBs. Applies when installing from ipsw.</string>
+			<key>label</key>
+			<string>Disk Size</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>variable</key>
+			<string>new_disk_size</string>
 		</dict>
 		<dict>
 			<key>config</key>
