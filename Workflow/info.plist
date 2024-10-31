@@ -6,6 +6,55 @@
 	<string>com.vitorgalvao.alfred.virtualmachines</string>
 	<key>connections</key>
 	<dict>
+		<key>0A32B0AA-74FF-4F0A-B1F1-E074B7E58278</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2E67F996-B90B-40DE-A280-5ED03A985429</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>9A9256E7-EA01-487A-8EC2-301A66434317</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3E5CB7D7-29DB-4FED-8D44-CC408639275F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>9A9256E7-EA01-487A-8EC2-301A66434317</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0F824A69-2AE9-4DEF-A09C-DDFC422024C2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>9A9256E7-EA01-487A-8EC2-301A66434317</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FE21BD4D-3B7C-4FEC-A207-10C27242288B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>0C43D32F-4524-4292-A2F0-98BAB312E8E2</key>
 		<array>
 			<dict>
@@ -131,17 +180,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3E5CB7D7-29DB-4FED-8D44-CC408639275F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>0F824A69-2AE9-4DEF-A09C-DDFC422024C2</string>
+				<string>0A32B0AA-74FF-4F0A-B1F1-E074B7E58278</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -584,6 +623,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>E7A1F491-1B36-4C2B-ACC3-7EAD432D9120</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>34F12572-91DC-424A-8831-24DDFFF378B7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>ED97B753-872C-47B2-8375-584569232A3D</key>
 		<array>
 			<dict>
@@ -624,7 +676,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>34F12572-91DC-424A-8831-24DDFFF378B7</string>
+				<string>E7A1F491-1B36-4C2B-ACC3-7EAD432D9120</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1592,8 +1644,31 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./notificator --message "${orig_vm}" --title 'Virtual Machine Created' --sound 'Glass'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2E67F996-B90B-40DE-A280-5ED03A985429</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
@@ -1640,8 +1715,8 @@ function run(argv) {
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>tart create "${1}" --disk-size "${new_disk_size}" --from-ipsw "${ipsw}"
-echo $?</string>
+				<string>tart create "${orig_vm}" --disk-size "${new_disk_size}" --from-ipsw "${ipsw}" &amp;&gt; /dev/null
+echo -n "${?}"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1672,6 +1747,58 @@ echo $?</string>
 			<string>alfred.workflow.trigger.action</string>
 			<key>uid</key>
 			<string>A086DD96-0F60-434C-91F7-F2823C2CC9AD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>0</string>
+						<key>outputlabel</key>
+						<string>Success</string>
+						<key>uid</key>
+						<string>9A9256E7-EA01-487A-8EC2-301A66434317</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Failure</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>0A32B0AA-74FF-4F0A-B1F1-E074B7E58278</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>orig_vm</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>E7A1F491-1B36-4C2B-ACC3-7EAD432D9120</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1802,6 +1929,29 @@ echo $?</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./notificator --message "${orig_vm}" --title 'Failed to Create Virtual Machine' --sound 'Sosumi'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>FE21BD4D-3B7C-4FEC-A207-10C27242288B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>## Setup
@@ -1824,6 +1974,13 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 * &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Switch between Main and Ignored lists.</string>
 	<key>uidata</key>
 	<dict>
+		<key>0A32B0AA-74FF-4F0A-B1F1-E074B7E58278</key>
+		<dict>
+			<key>xpos</key>
+			<real>1530</real>
+			<key>ypos</key>
+			<real>1145</real>
+		</dict>
 		<key>0C43D32F-4524-4292-A2F0-98BAB312E8E2</key>
 		<dict>
 			<key>xpos</key>
@@ -1850,7 +2007,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 		<key>0F824A69-2AE9-4DEF-A09C-DDFC422024C2</key>
 		<dict>
 			<key>xpos</key>
-			<real>1530</real>
+			<real>1665</real>
 			<key>ypos</key>
 			<real>1295</real>
 		</dict>
@@ -1902,6 +2059,13 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>ypos</key>
 			<real>80</real>
 		</dict>
+		<key>2E67F996-B90B-40DE-A280-5ED03A985429</key>
+		<dict>
+			<key>xpos</key>
+			<real>1655</real>
+			<key>ypos</key>
+			<real>995</real>
+		</dict>
 		<key>34F12572-91DC-424A-8831-24DDFFF378B7</key>
 		<dict>
 			<key>note</key>
@@ -1914,7 +2078,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 		<key>3E5CB7D7-29DB-4FED-8D44-CC408639275F</key>
 		<dict>
 			<key>xpos</key>
-			<real>1530</real>
+			<real>1665</real>
 			<key>ypos</key>
 			<real>1155</real>
 		</dict>
@@ -1930,7 +2094,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 		<key>446CD12C-1FAD-4015-B940-0CF7D05DCFB9</key>
 		<dict>
 			<key>xpos</key>
-			<real>1650</real>
+			<real>1785</real>
 			<key>ypos</key>
 			<real>1265</real>
 		</dict>
@@ -2030,7 +2194,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 		<key>9D1FC6C1-2100-4A39-ADF3-8476D229A5D9</key>
 		<dict>
 			<key>xpos</key>
-			<real>1605</real>
+			<real>1730</real>
 			<key>ypos</key>
 			<real>1155</real>
 		</dict>
@@ -2101,6 +2265,13 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>ypos</key>
 			<real>1085</real>
 		</dict>
+		<key>E7A1F491-1B36-4C2B-ACC3-7EAD432D9120</key>
+		<dict>
+			<key>xpos</key>
+			<real>1285</real>
+			<key>ypos</key>
+			<real>1155</real>
+		</dict>
 		<key>ED97B753-872C-47B2-8375-584569232A3D</key>
 		<dict>
 			<key>xpos</key>
@@ -2135,6 +2306,13 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<real>220</real>
 			<key>ypos</key>
 			<real>205</real>
+		</dict>
+		<key>FE21BD4D-3B7C-4FEC-A207-10C27242288B</key>
+		<dict>
+			<key>xpos</key>
+			<real>1655</real>
+			<key>ypos</key>
+			<real>1410</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
