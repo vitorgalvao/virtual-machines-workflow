@@ -33,6 +33,7 @@ function run(argv) {
       cmd: { variables: { action: "overwrite" }, subtitle: "Overwrite With Another VM" },
       alt: { variables: { action: "clone" }, subtitle: "Clone VM" },
       ctrl: { variables: { action: "delete" }, subtitle: "Delete VM" },
+      "ctrl+alt": { variables: { action: "perishable" }, subtitle: "Perishable Run" },
       fn: hideInput ?
         { variables: { action: "list_ignored" }, subtitle: "Switch to Ignored VMs List" } :
         { variables: { action: "list_main" }, subtitle: "Switch to Main VMs List" },
