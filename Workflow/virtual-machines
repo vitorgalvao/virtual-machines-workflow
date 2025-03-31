@@ -18,9 +18,10 @@ function runCommandJSON(...arguments) {
 
 function run(argv) {
   // Get VMs list
-  const inputVMs = argv.slice(2) // VMs given as arguments
+  const inputVMs = argv.slice(3) // VMs given as arguments
   const nativeMods = argv[0] === "native" // Either "native" to show modifiers from Alfred connections, or "script" to use modifiers set in this script
   const hideInput = argv[1] === "hide" // Either "hide" to show all except "inputVMs", or "show" for the reverse
+  const perishRun = argv[2] === "1" // Either "1" for a perishable run, or "0" for a continuous run
   const allVMs = runCommandJSON("tart", "list", "--format", "json")
   const matchingVMs = hideInput ?
     allVMs.filter(entry => !inputVMs.includes(entry["Name"])) :
@@ -33,7 +34,9 @@ function run(argv) {
       cmd: { variables: { action: "overwrite" }, subtitle: "Overwrite With Another VM" },
       alt: { variables: { action: "clone" }, subtitle: "Clone VM" },
       ctrl: { variables: { action: "delete" }, subtitle: "Delete VM" },
-      "ctrl+alt": { variables: { action: "perishable" }, subtitle: "Perishable Run" },
+      "ctrl+alt": perishRun ?
+        { variables: { action: "continuous" }, subtitle: "Continuous Run" } :
+        { variables: { action: "perishable" }, subtitle: "Perishable Run" },
       fn: hideInput ?
         { variables: { action: "list_ignored" }, subtitle: "Switch to Ignored VMs List" } :
         { variables: { action: "list_main" }, subtitle: "Switch to Main VMs List" },
@@ -52,7 +55,7 @@ function run(argv) {
   // List VMs
   const sfItems = matchingVMs.map(vmDetails => {
     return {
-      variables: { action: "run" },
+      variables: { action: perishRun ? "perishable" : "continuous" },
       uid: vmDetails["Name"] + vmDetails["Source"],
       title: vmDetails["Name"],
       subtitle: vmDetails["Source"],

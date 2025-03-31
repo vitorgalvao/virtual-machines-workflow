@@ -789,7 +789,7 @@
 				<key>runningsubtext</key>
 				<string>Getting list…</string>
 				<key>script</key>
-				<string>./virtual-machines 'script' 'hide' "${(f)ignored_vms}"</string>
+				<string>./virtual-machines 'script' 'hide' "${perishable_default}" "${(f)ignored_vms}"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -891,9 +891,9 @@ fi</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>run</string>
+						<string>continuous</string>
 						<key>outputlabel</key>
-						<string>Run</string>
+						<string>Continuous Run</string>
 						<key>uid</key>
 						<string>83F61695-A04A-441C-847B-DF03CEE0245E</string>
 					</dict>
@@ -1048,7 +1048,7 @@ fi</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./virtual-machines 'native' 'hide' "${orig_vm}"</string>
+				<string>./virtual-machines 'native' 'hide' '0' "${orig_vm}"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1292,7 +1292,7 @@ tart clone "${1}" "${orig_vm}"</string>
 				<key>runningsubtext</key>
 				<string>Getting list…</string>
 				<key>script</key>
-				<string>./virtual-machines 'script' 'show' "${(f)ignored_vms}"</string>
+				<string>./virtual-machines 'script' 'show' "${perishable_default}" "${(f)ignored_vms}"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -2049,7 +2049,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Overwrite with another. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; again to restart the original.
 * &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Clone. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; when naming to start the new one.
 * &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Delete.
-* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Perishable run. A clone is created, started, and deleted on exit.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Toggle perishable run (a clone is created, started, and deleted on exit).
 * &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Ignore or Unignore.
 * &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Switch between Main and Ignored lists.</string>
 	<key>uidata</key>
@@ -2477,6 +2477,25 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<string>checkbox</string>
 			<key>variable</key>
 			<string>trash_created</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Default to perishable run</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>perishable_default</string>
 		</dict>
 		<dict>
 			<key>config</key>
