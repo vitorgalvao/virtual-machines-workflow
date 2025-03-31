@@ -825,12 +825,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>if [[ "${suspendable}" -eq 1 ]]
-then
-  tart run --capture-system-keys --suspendable "${1}"
-else
-  tart run --capture-system-keys "${1}"
-fi</string>
+				<string>tart run --capture-system-keys "${1}"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -2496,25 +2491,6 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<string>checkbox</string>
 			<key>variable</key>
 			<string>perishable_default</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<true/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Save state snapshot when closing VM</string>
-			</dict>
-			<key>description</key>
-			<string>Available when both host and guest are on macOS 14 or later.</string>
-			<key>label</key>
-			<string></string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>suspendable</string>
 		</dict>
 		<dict>
 			<key>config</key>
