@@ -55,19 +55,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>0C43D32F-4524-4292-A2F0-98BAB312E8E2</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>96020B05-A3BE-49A2-B638-5849BB122534</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</key>
 		<array/>
 		<key>0C624EF2-3B87-48F9-9BA0-0A02AEDD31E3</key>
@@ -217,19 +204,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>418FD397-A8AB-444C-A181-441CEB60881C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>AF091797-929C-4FAB-8224-DECA10BE0AFB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</key>
 		<array>
 			<dict>
@@ -337,13 +311,13 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>0C43D32F-4524-4292-A2F0-98BAB312E8E2</string>
+				<string>10000A05-1FDF-4519-9340-B3FFD634FF7D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>sourceoutputuid</key>
-				<string>714601BF-38DE-4D16-8A37-EA57EF61B30E</string>
+				<string>84BAEB12-F7C1-4B5C-A62B-AD009EC88DEC</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -356,18 +330,6 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>90E235C7-FBA7-4493-BBF5-38FB8405F862</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>10000A05-1FDF-4519-9340-B3FFD634FF7D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>84BAEB12-F7C1-4B5C-A62B-AD009EC88DEC</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -494,29 +456,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>96020B05-A3BE-49A2-B638-5849BB122534</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>418FD397-A8AB-444C-A181-441CEB60881C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Restart {var:orig_vm} After Overwriting</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>9CA1563B-A17E-4162-91B7-3205B9146460</key>
 		<array/>
 		<key>9D1FC6C1-2100-4A39-ADF3-8476D229A5D9</key>
@@ -556,44 +495,6 @@
 				<string></string>
 				<key>vitoclose</key>
 				<true/>
-			</dict>
-		</array>
-		<key>AF091797-929C-4FAB-8224-DECA10BE0AFB</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>ED97B753-872C-47B2-8375-584569232A3D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>A2BFDBCD-7006-44FD-88B9-14695FF37D99</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>1F9EAB7B-93E3-4B28-8C39-66265D13BC89</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>418FD397-A8AB-444C-A181-441CEB60881C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
 			</dict>
 		</array>
 		<key>B6422FB2-468A-4787-9C1B-1C5054CA9B61</key>
@@ -653,19 +554,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>34F12572-91DC-424A-8831-24DDFFF378B7</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>ED97B753-872C-47B2-8375-584569232A3D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DC89AE54-7788-4FA9-B661-0B2532F88C42</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -900,11 +788,11 @@
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>overwrite</string>
+						<string>perishable</string>
 						<key>outputlabel</key>
-						<string>Overwrite</string>
+						<string>Perishable Run</string>
 						<key>uid</key>
-						<string>714601BF-38DE-4D16-8A37-EA57EF61B30E</string>
+						<string>84BAEB12-F7C1-4B5C-A62B-AD009EC88DEC</string>
 					</dict>
 					<dict>
 						<key>inputstring</key>
@@ -919,20 +807,6 @@
 						<string>Clone</string>
 						<key>uid</key>
 						<string>90E235C7-FBA7-4493-BBF5-38FB8405F862</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:action}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>perishable</string>
-						<key>outputlabel</key>
-						<string>Perishable Run</string>
-						<key>uid</key>
-						<string>84BAEB12-F7C1-4B5C-A62B-AD009EC88DEC</string>
 					</dict>
 					<dict>
 						<key>inputstring</key>
@@ -1020,79 +894,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>./virtual-machines 'native' 'hide' '0' "${orig_vm}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>skipuniversalaction</key>
-				<true/>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>type</key>
-				<integer>11</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>96020B05-A3BE-49A2-B638-5849BB122534</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>tart stop "${orig_vm}"
-tart clone "${1}" "${orig_vm}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>11</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>418FD397-A8AB-444C-A181-441CEB60881C</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>availableviaurlhandler</key>
 				<false/>
 				<key>triggerid</key>
@@ -1108,51 +909,29 @@ tart clone "${1}" "${orig_vm}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{var:orig_vm}</string>
-				<key>passthroughargument</key>
+				<key>concurrently</key>
 				<false/>
-				<key>variables</key>
-				<dict/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly tmp_vm="${1}-Perishable-$(uuidgen)"
+
+tart clone "${1}" "${tmp_vm}"
+tart run --capture-system-keys "${tmp_vm}"
+tart delete "${tmp_vm}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>ED97B753-872C-47B2-8375-584569232A3D</string>
+			<string>E19EA346-5780-462F-AA61-D7A27B5BCC48</string>
 			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:restart}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Restart VM</string>
-						<key>uid</key>
-						<string>A2BFDBCD-7006-44FD-88B9-14695FF37D99</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Show List</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>AF091797-929C-4FAB-8224-DECA10BE0AFB</string>
-			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1203,20 +982,13 @@ tart clone "${1}" "${orig_vm}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
+				<key>unstackview</key>
 				<false/>
-				<key>variables</key>
-				<dict>
-					<key>orig_vm</key>
-					<string>{query}</string>
-				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.utility.hidealfred</string>
 			<key>uid</key>
-			<string>0C43D32F-4524-4292-A2F0-98BAB312E8E2</string>
+			<string>10000A05-1FDF-4519-9340-B3FFD634FF7D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1236,26 +1008,6 @@ tart clone "${1}" "${orig_vm}"</string>
 			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
 			<string>BA2FE623-8209-4532-B601-64D49447E76B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>restart</key>
-					<string>true</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1492,46 +1244,6 @@ tart clone "${1}" "${orig_vm}"</string>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
 			<string>4DFED2B2-122C-45D4-B1BC-6B689A842358</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>readonly tmp_vm="${1}-Perishable-$(uuidgen)"
-
-tart clone "${1}" "${tmp_vm}"
-tart run --capture-system-keys "${tmp_vm}"
-tart delete "${tmp_vm}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>11</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E19EA346-5780-462F-AA61-D7A27B5BCC48</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>unstackview</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.hidealfred</string>
-			<key>uid</key>
-			<string>10000A05-1FDF-4519-9340-B3FFD634FF7D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2041,11 +1753,10 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 ![Listing installed virtual machines](images/about/tart.png)
 
 * &lt;kbd&gt;↩&lt;/kbd&gt; Run virtual machine.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Overwrite with another. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; again to restart the original.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Toggle perishable run (a clone is created, started, and deleted on exit).
 * &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Clone. &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; when naming to start the new one.
 * &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Delete.
-* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Toggle perishable run (a clone is created, started, and deleted on exit).
-* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Ignore or Unignore.
+* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Toggle ignore.
 * &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Switch between Main and Ignored lists.</string>
 	<key>uidata</key>
 	<dict>
@@ -2054,14 +1765,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>1530</real>
 			<key>ypos</key>
-			<real>1290</real>
-		</dict>
-		<key>0C43D32F-4524-4292-A2F0-98BAB312E8E2</key>
-		<dict>
-			<key>xpos</key>
-			<real>1030</real>
-			<key>ypos</key>
-			<real>210</real>
+			<real>1140</real>
 		</dict>
 		<key>0C48650A-4975-416A-8BD0-11DC6DF5DDAF</key>
 		<dict>
@@ -2077,28 +1781,28 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>855</real>
 			<key>ypos</key>
-			<real>850</real>
+			<real>700</real>
 		</dict>
 		<key>0F824A69-2AE9-4DEF-A09C-DDFC422024C2</key>
 		<dict>
 			<key>xpos</key>
 			<real>1660</real>
 			<key>ypos</key>
-			<real>1440</real>
+			<real>1290</real>
 		</dict>
 		<key>10000A05-1FDF-4519-9340-B3FFD634FF7D</key>
 		<dict>
 			<key>xpos</key>
 			<real>950</real>
 			<key>ypos</key>
-			<real>565</real>
+			<real>215</real>
 		</dict>
 		<key>12E50B4D-7A5A-415E-A5E5-4D23653D1638</key>
 		<dict>
 			<key>xpos</key>
 			<real>775</real>
 			<key>ypos</key>
-			<real>1120</real>
+			<real>970</real>
 		</dict>
 		<key>14FD359C-310C-4A92-8A1D-78003F4F6EF7</key>
 		<dict>
@@ -2107,7 +1811,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>1030</real>
 			<key>ypos</key>
-			<real>770</real>
+			<real>620</real>
 		</dict>
 		<key>1F9EAB7B-93E3-4B28-8C39-66265D13BC89</key>
 		<dict>
@@ -2121,7 +1825,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>815</real>
 			<key>ypos</key>
-			<real>985</real>
+			<real>835</real>
 		</dict>
 		<key>27FA96FD-E50D-4CEB-A4C7-D96846223619</key>
 		<dict>
@@ -2130,7 +1834,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>1120</real>
 			<key>ypos</key>
-			<real>820</real>
+			<real>670</real>
 		</dict>
 		<key>2A1CB15A-C5A9-45D2-AEFF-7B901E358AF6</key>
 		<dict>
@@ -2148,7 +1852,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>1655</real>
 			<key>ypos</key>
-			<real>1140</real>
+			<real>990</real>
 		</dict>
 		<key>34F12572-91DC-424A-8831-24DDFFF378B7</key>
 		<dict>
@@ -2157,30 +1861,21 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>1375</real>
 			<key>ypos</key>
-			<real>1270</real>
+			<real>1120</real>
 		</dict>
 		<key>3E5CB7D7-29DB-4FED-8D44-CC408639275F</key>
 		<dict>
 			<key>xpos</key>
 			<real>1660</real>
 			<key>ypos</key>
-			<real>1300</real>
-		</dict>
-		<key>418FD397-A8AB-444C-A181-441CEB60881C</key>
-		<dict>
-			<key>note</key>
-			<string>Clone VM</string>
-			<key>xpos</key>
-			<real>1375</real>
-			<key>ypos</key>
-			<real>180</real>
+			<real>1150</real>
 		</dict>
 		<key>446CD12C-1FAD-4015-B940-0CF7D05DCFB9</key>
 		<dict>
 			<key>xpos</key>
 			<real>1785</real>
 			<key>ypos</key>
-			<real>1410</real>
+			<real>1260</real>
 		</dict>
 		<key>4CFCF3B4-A9FA-4D98-9EE8-FC431DE7684A</key>
 		<dict>
@@ -2201,14 +1896,14 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>895</real>
 			<key>ypos</key>
-			<real>695</real>
+			<real>545</real>
 		</dict>
 		<key>646DAC9B-932D-4600-A670-EA39F20C18E1</key>
 		<dict>
 			<key>xpos</key>
 			<real>1415</real>
 			<key>ypos</key>
-			<real>850</real>
+			<real>700</real>
 		</dict>
 		<key>6531A2E5-6DC0-4121-98C9-ED1C1A33FE74</key>
 		<dict>
@@ -2222,7 +1917,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>1515</real>
 			<key>ypos</key>
-			<real>930</real>
+			<real>780</real>
 		</dict>
 		<key>6C955C02-FFC6-4140-A47C-4B277D9AFD03</key>
 		<dict>
@@ -2236,7 +1931,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>735</real>
 			<key>ypos</key>
-			<real>1300</real>
+			<real>1150</real>
 		</dict>
 		<key>894EA6FF-FFF7-4FD1-BC7E-40BF715E9139</key>
 		<dict>
@@ -2259,13 +1954,6 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>ypos</key>
 			<real>420</real>
 		</dict>
-		<key>96020B05-A3BE-49A2-B638-5849BB122534</key>
-		<dict>
-			<key>xpos</key>
-			<real>1120</real>
-			<key>ypos</key>
-			<real>180</real>
-		</dict>
 		<key>9CA1563B-A17E-4162-91B7-3205B9146460</key>
 		<dict>
 			<key>note</key>
@@ -2273,14 +1961,14 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>1120</real>
 			<key>ypos</key>
-			<real>660</real>
+			<real>510</real>
 		</dict>
 		<key>9D1FC6C1-2100-4A39-ADF3-8476D229A5D9</key>
 		<dict>
 			<key>xpos</key>
 			<real>1735</real>
 			<key>ypos</key>
-			<real>1300</real>
+			<real>1150</real>
 		</dict>
 		<key>9FA51A6D-2460-46A9-94C6-1A46DE3DC880</key>
 		<dict>
@@ -2296,21 +1984,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>335</real>
 			<key>ypos</key>
-			<real>1270</real>
-		</dict>
-		<key>AF091797-929C-4FAB-8224-DECA10BE0AFB</key>
-		<dict>
-			<key>xpos</key>
-			<real>1535</real>
-			<key>ypos</key>
-			<real>200</real>
-		</dict>
-		<key>B5BE8354-29A1-4355-A4C6-4055CA1DB83F</key>
-		<dict>
-			<key>xpos</key>
-			<real>1285</real>
-			<key>ypos</key>
-			<real>280</real>
+			<real>1120</real>
 		</dict>
 		<key>B6422FB2-468A-4787-9C1B-1C5054CA9B61</key>
 		<dict>
@@ -2349,28 +2023,21 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>1375</real>
 			<key>ypos</key>
-			<real>535</real>
+			<real>185</real>
 		</dict>
 		<key>E4FCF536-657A-4375-92F2-DDA50D295B9A</key>
 		<dict>
 			<key>xpos</key>
 			<real>1285</real>
 			<key>ypos</key>
-			<real>1230</real>
+			<real>1080</real>
 		</dict>
 		<key>E7A1F491-1B36-4C2B-ACC3-7EAD432D9120</key>
 		<dict>
 			<key>xpos</key>
 			<real>1285</real>
 			<key>ypos</key>
-			<real>1300</real>
-		</dict>
-		<key>ED97B753-872C-47B2-8375-584569232A3D</key>
-		<dict>
-			<key>xpos</key>
-			<real>1660</real>
-			<key>ypos</key>
-			<real>195</real>
+			<real>1150</real>
 		</dict>
 		<key>EF1EB707-F7E8-4C1F-BEFF-AA12987DF65F</key>
 		<dict>
@@ -2384,7 +2051,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>1120</real>
 			<key>ypos</key>
-			<real>1270</real>
+			<real>1120</real>
 		</dict>
 		<key>F39FD23D-A1DE-4A66-980C-170CD592D570</key>
 		<dict>
@@ -2407,7 +2074,7 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 			<key>xpos</key>
 			<real>1655</real>
 			<key>ypos</key>
-			<real>1555</real>
+			<real>1405</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

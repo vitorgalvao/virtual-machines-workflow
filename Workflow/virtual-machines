@@ -31,10 +31,9 @@ function run(argv) {
   const modifiers = nativeMods ?
     {} : // Ignore custom modifier and only show mods set in workflow connections
     {
-      cmd: { variables: { action: "overwrite" }, subtitle: "Overwrite With Another VM" },
       alt: { variables: { action: "clone" }, subtitle: "Clone VM" },
       ctrl: { variables: { action: "delete" }, subtitle: "Delete VM" },
-      "ctrl+alt": perishRun ?
+      cmd: perishRun ?
         { variables: { action: "continuous" }, subtitle: "Continuous Run" } :
         { variables: { action: "perishable" }, subtitle: "Perishable Run" },
       fn: hideInput ?
