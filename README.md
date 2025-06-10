@@ -17,9 +17,8 @@ Search installed virtual machines via the `tart` keyword. List VMs ignored from 
 ![Listing installed virtual machines](Workflow/images/about/tart.png)
 
 * <kbd>↩&#xFE0E;</kbd> Run virtual machine.
-* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Overwrite with another. <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> again to restart the original.
+* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Toggle perishable run (a clone is created, started, and deleted on exit).
 * <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd> Clone. <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> when naming to start the new one.
 * <kbd>⌃</kbd><kbd>↩&#xFE0E;</kbd> Delete.
-* <kbd>⌥</kbd><kbd>⌃</kbd><kbd>↩&#xFE0E;</kbd> Toggle perishable run (a clone is created, started, and deleted on exit).
-* <kbd>⇧</kbd><kbd>↩&#xFE0E;</kbd> Ignore or Unignore.
+* <kbd>⇧</kbd><kbd>↩&#xFE0E;</kbd> Toggle ignore.
 * <kbd>fn</kbd><kbd>↩&#xFE0E;</kbd> Switch between Main and Ignored lists.
