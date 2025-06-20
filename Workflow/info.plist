@@ -910,7 +910,7 @@
 			<key>config</key>
 			<dict>
 				<key>concurrently</key>
-				<false/>
+				<true/>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
@@ -1585,26 +1585,6 @@ echo -n "${?}"</string>
 				<false/>
 				<key>variables</key>
 				<dict>
-					<key>orig_vm</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>E7A1F491-1B36-4C2B-ACC3-7EAD432D9120</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
 					<key>ipsw</key>
 					<string>{query}</string>
 				</dict>
@@ -1662,6 +1642,26 @@ echo -n "${?}"</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>9D1FC6C1-2100-4A39-ADF3-8476D229A5D9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>orig_vm</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>E7A1F491-1B36-4C2B-ACC3-7EAD432D9120</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
